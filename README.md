@@ -4,15 +4,21 @@ Overview of the front-end:
 
 Home Page:
 
+User logins in using username and password credentials, a POST request is sent to database to verify if their legitimate as well checking the user token which got by REST Token authentication.
+
 
 <img width="200" alt="Screenshot 2022-12-12 at 00 14 21" src="https://user-images.githubusercontent.com/71873543/206938033-375a6a86-4311-4e2e-a5b2-4175c5ce8dd2.png">
 
 Map Page:
 
+Displays Map of current user location then sends the user location to the back via A POST request and is recieved by the updated-location endpoint
+
 <img width="200" alt="Screenshot 2022-12-12 at 00 15 00" src="https://user-images.githubusercontent.com/71873543/206939523-1e48ed19-67da-4cbf-834a-3ea2048e8d19.png"> 
 
 
 Overpass Turbo:
+
+Created using overpass turbo, still working on getting this implemented (1 error to fix)
 
 <img width="713" alt="Screenshot 2022-12-12 at 05 34 53" src="https://user-images.githubusercontent.com/71873543/206968330-b25defb6-154d-4bdb-872a-d5eb2fc1d0c6.png">
 
@@ -35,6 +41,7 @@ REST API /Updated-location/
 
 
 Deployment:
+
 
 
 Website:
