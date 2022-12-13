@@ -16,11 +16,16 @@ Displays Map of current user location then sends the user location to the back v
 <img width="200" alt="Screenshot 2022-12-12 at 00 15 00" src="https://user-images.githubusercontent.com/71873543/206939523-1e48ed19-67da-4cbf-834a-3ea2048e8d19.png"> 
 
 
-Overpass Turbo:
+Overpass Turbo: (Got rid of this)
 
 Created using overpass turbo, still working on getting this implemented (1 error to fix)
 
 <img width="713" alt="Screenshot 2022-12-12 at 05 34 53" src="https://user-images.githubusercontent.com/71873543/206968330-b25defb6-154d-4bdb-872a-d5eb2fc1d0c6.png">
+
+
+Finding Petrol "Fuel" Stations:
+
+<img width="1397" alt="Screenshot 2022-12-13 at 04 54 17" src="https://user-images.githubusercontent.com/71873543/207230113-77f394d3-5851-44b6-a05a-5050d178185a.png">
 
 
 
@@ -38,6 +43,11 @@ REST API /Swagger_UI/
 
 REST API /Updated-location/
 <img width="1438" alt="Screenshot 2022-12-12 at 00 51 49" src="https://user-images.githubusercontent.com/71873543/206939920-75f242b5-d83c-453d-abab-865169f60c36.png">
+
+
+
+<img width="1440" alt="Screenshot 2022-12-13 at 04 56 55" src="https://user-images.githubusercontent.com/71873543/207230310-3215153b-2ae4-4308-9d19-f32a9e61a7c8.png">
+
 
 
 Deployment:
