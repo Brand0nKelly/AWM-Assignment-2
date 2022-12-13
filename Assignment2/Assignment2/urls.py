@@ -27,6 +27,7 @@ from World.Models import Profile
 from World.Views import UpdateLocation
 
 from World.Views import CustomAuthToken
+from World.overpassView import QueryOverpass
 
 
 # Serializers define the API representation.
@@ -56,6 +57,7 @@ urlpatterns = [
     path('', include(router.urls)),
     path('api-token-auth/', CustomAuthToken.as_view()),
     path('api/updated-location/', UpdateLocation.as_view(), name='update_location'),
+    path('api/golf/', QueryOverpass.as_view(), name="golf"),
 
     path('openapi/', get_schema_view(
         title="Your Project",
